@@ -1,82 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lumanti Crafts - Handmade Felt Products from Nepal</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumanti Crafts - Handmade Felt Products from Nepal</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">Lumanti Crafts</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#wholesale">Wholesale</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="logo">Lumanti Crafts</div>
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#shop">Shop</a></li>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#wholesale">Wholesale</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Handmade Felt Treasures from Nepal</h1>
+      <p>Premium Eco-Friendly Felt Products • Wholesale & Export</p>
+      <a href="#shop" class="btn">Browse Collection</a>
+    </section>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Handmade Felt Treasures from Nepal</h1>
-    <p>Premium Eco-Friendly Felt Products • Wholesale & Export</p>
-    <a href="#shop" class="btn">Browse Collection</a>
-  </section>
-
-  <!-- Categories -->
-  <section class="categories" id="shop">
-    <h2>Our Collections</h2>
-    <div class="category-grid">
-      <div class="category-card">
-        <img src="images/felt-toys.jpg" alt="Felt Toys">
-        <h3>Felt Toys</h3>
+    <!-- Categories -->
+    <section class="categories" id="shop">
+      <h2>Our Collections</h2>
+      <div class="category-grid">
+        <div class="category-card">
+          <img src="images/felt-toys.jpg" alt="Felt Toys" />
+          <h3>Felt Toys</h3>
+        </div>
+        <div class="category-card">
+          <img src="images/felt-hats.jpg" alt="Felt Hats" />
+          <h3>Felt Hats</h3>
+        </div>
+        <div class="category-card">
+          <img src="images/christmas.jpg" alt="Christmas Items" />
+          <h3>Christmas Decor</h3>
+        </div>
+        <div class="category-card">
+          <img src="images/vegetables.jpg" alt="Felt Vegetables" />
+          <h3>Felt Fruits & Vegetables</h3>
+        </div>
       </div>
-      <div class="category-card">
-        <img src="images/felt-hats.jpg" alt="Felt Hats">
-        <h3>Felt Hats</h3>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products">
+      <h2>Featured Products</h2>
+      <div class="product-grid" id="product-grid">
+        <!-- Products will be added here by JavaScript -->
       </div>
-      <div class="category-card">
-        <img src="images/christmas.jpg" alt="Christmas Items">
-        <h3>Christmas Decor</h3>
-      </div>
-      <div class="category-card">
-        <img src="images/vegetables.jpg" alt="Felt Vegetables">
-        <h3>Felt Fruits & Vegetables</h3>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Featured Products -->
-  <section class="products">
-    <h2>Featured Products</h2>
-    <div class="product-grid" id="product-grid">
-      <!-- Products will be added here by JavaScript -->
-    </div>
-  </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About Lumanti Crafts</h2>
+      <p>
+        We are a women-led social enterprise from Kirtipur, Nepal, creating
+        high-quality handmade felt products using 100% eco-friendly New Zealand
+        wool. Every product supports local artisans and sustainable
+        craftsmanship.
+      </p>
+    </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Lumanti Crafts</h2>
-    <p>We are a women-led social enterprise from Kirtipur, Nepal, creating high-quality handmade felt products using 100% eco-friendly New Zealand wool. Every product supports local artisans and sustainable craftsmanship.</p>
-  </section>
+    <!-- Wholesale CTA -->
+    <section class="wholesale" id="wholesale">
+      <h2>Wholesale Inquiry</h2>
+      <p>
+        Looking for bulk orders? We offer competitive wholesale pricing
+        worldwide.
+      </p>
+      <a href="#contact" class="btn">Get Wholesale Price List</a>
+    </section>
 
-  <!-- Wholesale CTA -->
-  <section class="wholesale" id="wholesale">
-    <h2>Wholesale Inquiry</h2>
-    <p>Looking for bulk orders? We offer competitive wholesale pricing worldwide.</p>
-    <a href="#contact" class="btn">Get Wholesale Price List</a>
-  </section>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Lumanti Crafts • Handmade in Nepal</p>
+    </footer>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Lumanti Crafts • Handmade in Nepal</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
